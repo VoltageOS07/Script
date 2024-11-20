@@ -22,5 +22,5 @@ git clone https://github.com/VoltageOS07/android_hardware_xiaomi.git --depth 1 -
 git clone https://github.com/LineageOS/android_packages_resources_devicesettings.git --depth 1 -b lineage-21.0 packages/resources/devicesettings
 # set build environment
 . build/envsetup.sh
-# brunch
+# lunch
 brunch mojito
