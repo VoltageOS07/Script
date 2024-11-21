@@ -23,4 +23,6 @@ git clone https://github.com/LineageOS/android_packages_resources_devicesettings
 # set build environment
 . build/envsetup.sh
 # lunch
-brunch mojito
+breakfast mojito
+# bacon
+m bacon
