@@ -5,9 +5,7 @@ rm -rf .repo/local_manifests/
 # Initialize ROM manifest
 repo init -u https://github.com/VoltageOS/manifest.git -b 15 --git-lfs
 # repo sync
-repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
-rm -rf device/xiaomi/mojito
-rm -rf packages/resources/devicesettings
+/opt/crave/resync.sh
 # cloning DT
 # device tree
 git clone https://github.com/VoltageOS07/device_xiaomi_mojito.git --depth 1 -b afterlife-14 device/xiaomi/mojito
@@ -23,6 +21,4 @@ git clone https://github.com/LineageOS/android_packages_resources_devicesettings
 # set build environment
 . build/envsetup.sh
 # lunch
-breakfast mojito
-# bacon
-m bacon
+lunch mojito
