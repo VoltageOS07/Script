@@ -17,7 +17,6 @@ git clone https://gitlab.com/sachinbarange86/android_vendor_xiaomi_mojito.git --
 git clone https://gitlab.com/sachinbarange86/android_vendor_xiaomi_sm6150-common.git --depth 1 -b 14 vendor/xiaomi/sm6150-common
 # hardware tree
 git clone https://github.com/VoltageOS07/android_hardware_xiaomi.git --depth 1 -b mojito hardware/xiaomi
-git clone https://github.com/LineageOS/android_packages_resources_devicesettings.git --depth 1 -b lineage-21.0 packages/resources/devicesettings
 # set build environment
 . build/envsetup.sh
 # lunch
