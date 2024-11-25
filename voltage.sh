@@ -20,4 +20,4 @@ git clone https://github.com/VoltageOS07/android_hardware_xiaomi.git --depth 1 -
 # set build environment
 . build/envsetup.sh
 # lunch
-lunch mojito
+brunch mojito eng
