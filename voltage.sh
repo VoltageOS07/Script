@@ -8,7 +8,7 @@ repo init -u https://github.com/VoltageOS/manifest.git -b 15 --git-lfs
 /opt/crave/resync.sh
 # cloning DT
 # device tree
-git clone https://github.com/VoltageOS07/device_xiaomi_mojito.git --depth 1 -b afterlife-14 device/xiaomi/mojito
+git clone https://github.com/VoltageOS07/device_xiaomi_mojito.git --depth 1 -b mojito-universe device/xiaomi/mojito
 git clone https://github.com/VoltageOS07/android_device_xiaomi_sm6150-common.git --depth 1 -b mojito-universe device/xiaomi/sm6150-common
 # kernel tree
 git clone https://github.com/VoltageOS07/kernel_xiaomi_mojito.git --depth 1 -b inline-rom kernel/xiaomi/mojito
@@ -20,4 +20,4 @@ git clone https://github.com/VoltageOS07/android_hardware_xiaomi.git --depth 1 -
 # set build environment
 . build/envsetup.sh
 # lunch
-brunch mojito eng
+brunch mojito
